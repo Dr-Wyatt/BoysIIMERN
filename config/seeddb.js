@@ -5,7 +5,7 @@ const {
 } = models
 
 async function seedDatabase() {
-
+    try {
     const user1 = await User.create({
         email: 'my@email.com',
         password: 'password',
@@ -122,6 +122,9 @@ async function seedDatabase() {
     }) 
     await event1.addSuperlative(superlative2)
     await user2.addEventSuperlative(superlative2)
+} catch (err) {
+    console.log(err);
+}
 
 }
 

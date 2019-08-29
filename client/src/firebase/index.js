@@ -4,13 +4,13 @@ import 'firebase/database';
 
   // Your web app's Firebase configuration
   var firebaseConfig = {
-    apiKey: "AIzaSyDu_0tjdASiS_3_0YhbcCOW9buUShPYD4E",
-    authDomain: "photobook-e2e61.firebaseapp.com",
-    databaseURL: "https://photobook-e2e61.firebaseio.com",
-    projectId: "photobook-e2e61",
-    storageBucket: "photobook-e2e61.appspot.com",
-    messagingSenderId: "398780119690",
-    appId: "1:398780119690:web:e3d6870a9fc527bb"
+    apiKey: "AIzaSyDrJDzMRXIKC2Iliq0SdmTrE9JS5iWJXA4",
+    authDomain: "likely-db.firebaseapp.com",
+    databaseURL: "https://likely-db.firebaseio.com",
+    projectId: "likely-db",
+    storageBucket: "likely-db.appspot.com",
+    messagingSenderId: "354125794434",
+    appId: "1:354125794434:web:73fa16565ee81a8e"
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
